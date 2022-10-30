@@ -2,6 +2,6 @@ This is a random giveaway generator to generate a winner based on the names you 
 
 The user input allows you to enter names, then when you hit ENTER, it will allow you to add more names, remove names, or generate the winner.
 
-Afterwards, you can startover or exit the script.
+Afterwards, you can startover with the same list, clear the list, or exit the script.
 
 That's it!
