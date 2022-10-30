@@ -44,12 +44,16 @@ while True:
         
             elif retry == 'g':
                 print('Congratulations! ' + random.choice(winner) + ' is the winner!')
-                again = input('Would you like to try again? Enter "y" to start over or "n" to quit. WARNING: This will delete all entries!: ')
+                again = input('Would you like to try again? Enter "yes" to start over or "no" to quit. WARNING: This will delete all entries! If you want to retry with the same list, type "retry" and the script will start over, but keep the list: ')
                 
-                if again == 'y':
+                if again == 'yes':
                     winner.clear()
                     print(entry)
-                if again == 'n':
+
+                if again == 'retry':
+                    print(entry)
+
+                if again == 'no':
                     break
                     
                     #add option to start with new array or old array
