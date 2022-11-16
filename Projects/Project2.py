@@ -26,10 +26,6 @@ while True:
                   a = input('Enter a name to be added: ')
                   winner.append(a) #need to correct the syntax to add the part in '' so that it will print correctly
                   print(a + ' has been added to the list.')
-                
-            elif a == '':
-                  print(winner)
-                  print(retry)
             
             elif retry == 'r':
                     r = input('Enter a name to be removed: ')
@@ -55,5 +51,3 @@ while True:
 
                 if again == 'no':
                     break
-                    
-                    #add option to start with new array or old array
